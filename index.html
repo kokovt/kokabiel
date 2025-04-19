@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Kokabiels Portfolio</title>
+  <link rel="stylesheet" href="./css/index.css"></link>
+  <link rel="stylesheet" href="./fonts/BigBlueTermNerdFont/stylesheet.css"></link>
+  <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
+</head>
+<body>
+  <div id="sidebar">
+    <div id="explorer">
+      <pre style="text-align: center;">Explorer</pre>
+      <div id="searchHolder" class="center">
+        <pre style="display: inline; color: lightblue; "> ></pre> <input type="text" id="searchInput" placeholder="In development"></input>
+      </div>
+    </div>
+
+    <!-- All files are being put in here -->
+    <div id="mainFolder">
+        <pre class="folder"> </pre><pre class="fileName">Kokabiel</pre><br>
+        <pre class="folder" style="font-size: 20px;">&boxur; </pre><pre class="fileName">  About.md</pre>
+    </div>
+  </div>
+
+  <div id="editor">
+    <iframe src="./kokabiel.md" id="editorIframe"></iframe>
+  </div>
+</body>
