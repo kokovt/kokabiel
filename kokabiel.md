@@ -1,3 +1,7 @@
+layout: page
+title: "About"
+permalink: /kokabiel.md
+
 
 <link rel="stylesheet" href="./fonts/BigBlueTermNerdFont/stylesheet.css"></link>
 
