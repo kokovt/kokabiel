@@ -3,6 +3,7 @@ html, body {
   background-color: black;
   width: 100vw;
   height: 100vh;
+  color: white;
 }
 
 pre {
@@ -36,7 +37,7 @@ pre {
   display: inline;
   float: left;
   background-color: #232532;
-  height: 100%;x;
+  height: 100%;
 }
 
 .fileName {
