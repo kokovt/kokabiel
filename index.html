@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kokabiels Portfolio</title>
   <link rel="stylesheet" href="./css/index.css"></link>
   <link rel="stylesheet" href="./fonts/BigBlueTermNerdFont/stylesheet.css"></link>
   <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
+  <script src="./js/index.js" defer></script>
 </head>
 <body >
-  <div id="sidebar">
+  <div id="sidebar" class="noSelect">
     <div id="explorer">
       <pre style="text-align: center;">Explorer</pre>
       <div id="searchHolder" class="center">
@@ -17,8 +17,13 @@
 
     <!-- All files are being put in here -->
     <div id="mainFolder">
-        <pre class="folder"> </pre><pre class="fileName">Kokabiel</pre><br>
-        <pre class="folder" style="font-size: 20px;">&boxur; </pre><pre class="fileName">  About.md</pre>
+      <pre class="folder"> </pre><pre class="fileName">Kokabiel</pre><br>
+      <container class="fileButton" id="aboutButton" onclick="changeTab('about');">
+        <pre class="folder" style="font-size: 20px;">&boxvr; </pre><pre class="fileName">  About.md</pre>  
+      </container>
+      <container class="fileButton" id="timelineButton" onclick="changeTab('timeline');">
+        <pre class="folder" style="font-size: 20px;">&boxur; </pre><pre class="fileName">  Timeline.md</pre>
+      </container>
     </div>
   </div>
 

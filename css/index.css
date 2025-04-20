@@ -4,6 +4,7 @@ html, body {
   width: 100vw;
   height: 100vh;
   color: white;
+  overflow: hidden;
 }
 
 pre {
@@ -12,6 +13,15 @@ pre {
 
 .center {
   margin: auto;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .folder {
@@ -46,6 +56,12 @@ pre {
   padding: 0;
   color: white;
   font-weight: bold;
+  z-index: 0;
+  position: relative;
+}
+
+.active {
+  background-color: #2e3142;
 }
 
 #sidebar {
@@ -90,10 +106,20 @@ pre {
 }
 
 #editorIframe {
-  width: 100%;
+  width: 99%;
   height: 100%;
+  overflow: auto;
 }
 
 input:focus {
   outline: none;
+}
+
+.fileButton {
+  display: inline-block;
+  width: 100%;
+}
+
+.fileButton:hover {
+  background-color: #1b1c24;
 }
