@@ -1,0 +1,21 @@
+h3, p, h2 {
+    color:white;
+    text-align: center;
+}
+
+
+#talents-header {
+    font-size: 50px;
+    text-align: center;
+    color: transparent;
+    background: #4B9CDF;
+    background: linear-gradient(90deg,rgba(75, 156, 223, 1) 40%, rgba(129, 206, 245, 1) 50%, rgba(254, 254, 254, 1) 60%);
+    background-clip: text;
+}
+
+#talent-holder {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
