@@ -10,6 +10,7 @@ html, body {
     font-size: x-large;
     height: 50px;
     cursor: pointer;
+    text-align: left;
 }
 
 .hover-underline-animation {
@@ -51,6 +52,7 @@ html, body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 50px;
 }
 
 #logo-button {
@@ -62,6 +64,13 @@ html, body {
     width: calc(100% - 500px);
     justify-content: flex-end;
     gap: 40px;
+}
+
+#talents {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 #seperator {

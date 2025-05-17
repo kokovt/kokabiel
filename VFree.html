@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VFree</title>
+    <title>VFree - Be Free, Be You.</title>
     <link rel="shortcut icon" type="image/x-icon" href="photos/VFREE/favicon.ico">
     <link rel="stylesheet" href="/css/VFree/VFree.css">
     <script src="/js/VFree/header.js" defer></script>
@@ -14,7 +14,30 @@
 
 <body>
     <div id="HEADER_REPLACE"></div>
-        <div id="content"></div>
+    <div id="content">
+        <div style="background-color: #4B9CDF; height: 600px; background: linear-gradient(0deg, #7FCEF5 0%,rgba(254, 254, 254, 1) 100%);;">
+            <img src="/photos/vfree_group.png" style="position: relative; left: 50%; transform: translateX(-50%);" height="600px">
+        </div>
+        <p id="vfree-undertext">A VTuber group built on creativity - no auditions, no schedules, just you.</p>
+        <button class="hover-underline-animation home-buttons" onclick="window.location.href = '/VFreePages/about.html'" style="color: white;">Learn more</button><br/>
+        
+        <div>
+            <h2 h2 style="font-size: 30px;">Meet our talents</h2>
+            <p>VFree is home to incredible VTubers shaping a new wave of creativity.</p>
+            <p>The talents are still being added! Registration process for displaying on the website has not been opened yet.</p>
+            <div id="talents"></div>
+            <button class="hover-underline-animation home-buttons" onclick="window.location.href = '/VFreePages/talents.html'">View all talents</button><br />
+        </div>
+        <div style="margin-bottom: 50px;">
+            <h2>Official communities</h2>
+            <div id="community-holder">
+                <button class="hover-underline-animation" onclick="window.open('https://discord.com/invite/Ps4Vvaqen9', '_blank')">Discord<i class="at-chain"></i></button>
+                <button class="hover-underline-animation" onclick="window.open('https://vfree.xyz', '_blank')">Website<i class="at-chain"></i></button>
+                <button class="hover-underline-animation" onclick="window.open('https://x.com/i/communities/1919544300226150582', '_blank')">x<i class="at-chain"></i></button>
+            </div>
+        </div>
+        <button id="start-button" class="hover-underline-animation home-buttons" style="margin-bottom: 50px; font-size: 20px;" onclick="window.location.href = '/VFreePages/joinUs.html'">Start your journey</button>
+    </div>
     <div id="FOOTER_REPLACE"></div>
 </body>
 

@@ -10,6 +10,47 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, p {
+    text-align: center;
+    color: white;
+}
+
+.home-buttons {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: large;
+}
+
+#community-holder {
+    position: relative;
+    width: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#community-holder>button {
+    position: relative;
+    background: none;
+    border: none;
+    color: white;
+    font-size: large;
+}
+
 #content {
     min-height: calc(100vh - 604px);
+}
+
+#vfree-undertext {
+    font-size: 25px;
+    text-align: center;
+    color: transparent;
+    background: #4B9CDF;
+    background: linear-gradient(90deg,rgba(75, 156, 223, 1) 40%, rgba(129, 206, 245, 1) 50%, rgba(254, 254, 254, 1) 60%);
+    background-clip: text;
 }
